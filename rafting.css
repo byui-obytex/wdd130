@@ -1,0 +1,30 @@
+:root {
+    heading background: color #58111A;
+    heading-text color: #000;
+    heading-font-color: #283618;
+    padding: 1rem;
+    border 1px solid:#BC6C25
+}
+.hero {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+h1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+}
+article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(red, green, blue, alpha);
+    padding: 10px;
+}
+.hero article img {
+    float:right;
+    margin: left 10px; ;
+}
