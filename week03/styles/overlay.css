@@ -43,12 +43,6 @@ h1 {
     opacity: 0.9;
 }
 
-h2 {
-    text-shadow: 0 0 15px #333;
-    border-bottom: 1px solid #555;
-    margin-bottom: 0.3rem;
-}
-
 footer {
     position: fixed;
     bottom: 0;
