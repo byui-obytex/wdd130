@@ -9,13 +9,7 @@
 
 header {
     background-color: var(--primary-color);
-    color: (--accent2-color);
-}
-
-* {
-    margin: 0;
-    padding: 0;
-
+    color: (--accent1-color);
 }
 
 body {
