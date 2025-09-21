@@ -3,7 +3,6 @@
     --secondary-color: #f4a261; /* worm sand */
     --accent1-color: #264653; /* dark state blue */
     --accent2-color: #e9c46a; /* light golden yellow */
-    --body-font: "Times New Romans,Geogia" serif;
     --body-font: Arial,helvetica,Sans-serif;
 
 }
@@ -16,7 +15,7 @@ header {
 * {
     margin: 0;
     padding: 0;
-    box-sizing:0;
+
 }
 
 body {
