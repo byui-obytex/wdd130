@@ -12,6 +12,11 @@ header {
     color: (--accent1-color);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
@@ -54,7 +59,7 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #f5f5f5; /* white text-make sure this is enough contrast with the background-color */
+    color: #fff; /* white text-make sure this is enough contrast with the background-color */
 }
 
 article {
