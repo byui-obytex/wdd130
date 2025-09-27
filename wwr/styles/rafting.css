@@ -93,7 +93,7 @@ h1 {
 article {
     position: absolute;
     color: #2b1c1c;
-    content: var(--accent1-color);
+    content: #262626;
 }
 
 .hero article img {
