@@ -15,11 +15,9 @@
 }
 
 header {
-    text-wrap-style: column1/4;
     display: grid;
-    place-items: left;
-    background-color: var(--primary-color);
-    color: (--accent2-color);
+    background-color: #055a05;
+    color: #e9c46a;
 }
 
 * {
@@ -114,5 +112,4 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column: 1/3;
     margin:1rem;
-    align-items: right;
 }
