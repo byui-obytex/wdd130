@@ -96,11 +96,6 @@ article {
     content: #262626;
 }
 
-.hero article img {
-    float:right;
-    width: 125px;
-    border: #264653;
-}
 
 h2  .grid-container{
     display:grid;
