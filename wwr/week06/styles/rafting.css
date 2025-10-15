@@ -74,7 +74,7 @@ nav,p,section,article {
 }
 
 .hero img {
-    display: block;
+    display: grid;
     width: 100%;
     height: auto;
 }
