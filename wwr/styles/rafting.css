@@ -7,8 +7,8 @@
     --body-font:Arial,Helvetica,sans-serif;
 }
 header {
-    background-color: #1a5e3e;
-    color: #e9c46a;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
 }
 * {
     margin: 0;
@@ -16,16 +16,16 @@ header {
     box-sizing: border-box;
 }
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #264653;
+    font-family: var(--body-font);
+    color: var(--accent1-color);
 }
 header,main,footer {
     width: 840px;
     margin: 0 auto;
 }
 h1,h2 {
-    font-family: 'Times New Roman', Georgia, serif;
-    color: #1a5e3e;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
 }
 nav,p,section,article {
     margin: 16px;
@@ -37,6 +37,9 @@ nav,p,section,article {
 }
 .hero {
     position: relative;
+}
+.hero h1 {
+    position: absolute;
 }
 .hero img {
     display: block;
@@ -50,10 +53,10 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: #264653;
+    background-color: var(--accent1-color);
     color: #fff;/* white text-make sure there is enough contrast with the background-color */
 }
-article {
+.hero article {
     position: absolute;
 }
 .hero article img {
