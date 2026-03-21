@@ -30,11 +30,11 @@ h1,h2 {
 nav,p,section,article {
     margin: 16px;
     padding: 8px;
-    color: var(--secondary-color);
 }
 .socialmedia a {
     text-decoration: none;
     align-content: center;
+    border-color: var(--secondary-color);
 }
 .hero {
     position: relative;
