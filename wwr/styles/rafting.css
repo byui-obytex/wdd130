@@ -1,5 +1,5 @@
 :root {
-    --primary-color:#1a5e3e;/* Deep sea Green */
+    --primary-color:#055a05;/* forest Green */
     --secondary-color:#f4a261;/* warm sand */
     --accent1-color:#264653;/* dark slate blue*/
     --accent2-color:#e9c46a;/* light golden yellow */
@@ -29,8 +29,7 @@ h1,h2 {
 }
 nav,p,section,article {
     margin: 16px;
-    padding: 8px;
-    color: var(--secondary-color);
+    padding: 8px;;
 }
 .socialmedia a {
     text-decoration: none;
