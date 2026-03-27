@@ -26,6 +26,7 @@ header,main,footer {
 h1,h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    align-items: center;
 }
 nav,p,section,article {
     margin: 16px;
@@ -70,6 +71,66 @@ h1 {
 footer {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    background-color: #006400;
+    color: #fff;
+    padding: 20px;
     align-items: center;
+}
+.socialmedia-links {
+    display: flex; /*keep them in a row */
+    gap: 15px;
+    grid-template-rows: repeat(3,1fr); /*align all icons in horizontal rows */
+    width: auto;
+}
+.socialmedia-links img {
+    width: 35px;
+    height: auto;
+}
+.grid {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-evenly;
+    grid-template-columns: 150px 1fr; /*150px for logo,remaining space for nav */
+    grid-gap: 20px;
+}
+header img nav {
+    text-decoration: #fff;
+}
+nav {
+    display:flex;
+    justify-content: space-around;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.adventure-container {
+    display: flex;/*aligns all figures in a horizontal row */
+    flex-wrap: wrap;
+    align-content: center;
+    grid-template-rows: repeat(5,1fr);
+    justify-content: center;
+    gap: 20px;
+}
+.adventure-container figure {
+    margin: 0;
+    width: 200px;
+    flex: 1rem;
+    text-align: center;
+    flex-direction: row-reverse;
+}
+.adventure-container img {
+    height: auto;
+    width: 100%;
+}
+.history-container {
+    text-align: center;
+    padding: 20px;
+}
+.adventure {
+    text-align: center;
+    padding: 20px;
 }
