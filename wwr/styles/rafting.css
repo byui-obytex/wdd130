@@ -7,6 +7,10 @@
     --body-font:Arial,Helvetica,sans-serif;
 }
 header {
+    display: grid;
+    grid-template-columns:auto 1fr;/* fixed width for logo left, give  rest to nav on right */
+    align-items: flex-end;
+    padding: 10px 20px;
     background-color: var(--primary-color);
     color: var(--accent2-color);
 }
@@ -98,14 +102,19 @@ footer {
 header img nav {
     text-decoration: #fff;
 }
-nav {
+nav ul {
     display:flex;
-    justify-content: space-around;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    gap: 40px;
+    justify-content: flex-end;/*distribute links evenly */
 }
 nav a {
     text-decoration: none;
     color: white;
-    padding: 10px;
+    padding: 20px;
 }
 .adventure-container {
     display: flex;/*aligns all figures in a horizontal row */
@@ -131,6 +140,12 @@ nav a {
     text-align: center;
     padding: 20px;
 }
+.history-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
 .adventure {
     text-align: center;
     padding: 20px;
@@ -139,4 +154,11 @@ nav a {
     width: 100%;
     text-align: center;
     margin-bottom: 20px;
+}
+.logo-container {
+    align-self: auto;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 60px;
 }
