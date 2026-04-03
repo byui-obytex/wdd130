@@ -131,7 +131,7 @@ nav a {
 }
 .history-content {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
     align-items: center;
 }
@@ -173,4 +173,7 @@ button {
 }
 .map-frame {
     border: none;
+}
+.form {
+    align-content:right;
 }
