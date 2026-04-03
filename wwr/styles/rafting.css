@@ -60,18 +60,7 @@ h1 {
     background-color: var(--accent1-color);
     color: #fff;/* white text-make sure there is enough contrast with the background-color */
 }
-.hero article {
-    position: absolute;
-    top: 150px;
-    background-color: #fff;
-}
-.hero article img {
-    float: right;
-    width: 125px;
-    border: #fff;
-    margin: 10px;
-    box-shadow: none;
-}
+
 footer {
     display: flex;
     flex-direction: row;
@@ -161,4 +150,28 @@ nav a {
     margin-top: 30px;
     margin-bottom: 30px;
     margin-right: 60px;
+}
+/*container to hold map and form side by side */
+.contact-grid {
+    display: grid;
+}
+.input-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.input-row label {
+    flex: 1;
+}
+.input-row input,
+.input-row textarea {
+    flex: 2;
+    padding: 10px;
+    border: 1px solid #fff;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #eee;
+    border: 1px solid #fff;
 }
