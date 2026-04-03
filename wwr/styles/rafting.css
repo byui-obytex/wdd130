@@ -155,11 +155,7 @@ nav a {
 .contact-grid {
     display: grid;
 }
-.input-row {
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-}
+
 .input-row label {
     flex: 1;
 }
