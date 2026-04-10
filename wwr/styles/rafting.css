@@ -127,6 +127,7 @@ nav a {
 .history-container {
     text-align: center;
     padding: 20px;
+    
 }
 .history-content {
     display: grid;
@@ -220,4 +221,15 @@ button {
     color: #fff;
     padding: 30px;
     overflow-wrap: overlay;
+}
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(108, 98, 98);
+    letter-spacing: 2px;
+    border-spacing: 10px;
+}
+th td {
+    border: 1px solid rgb(150, 150, 150);
+    padding: 8px 12px;
+    text-align: center;
 }
